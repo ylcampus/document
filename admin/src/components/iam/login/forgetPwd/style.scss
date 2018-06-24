@@ -1,0 +1,209 @@
+#ForgetPwd{
+  /*页头*/
+  #header{
+    background-color: #282828;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .inner{
+      width: 960px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .web-logo{
+        z-index: 10;
+        width: 240px;
+        height: 50px !important;
+        a{
+          display: block;
+          height: 50px;
+          line-height: 50px;
+          padding-left: 80px;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 700;
+          background-image: url(../../../../assets/img/logo.png);
+          background-repeat: no-repeat;
+          background-position-y: -5px;
+        }
+      }
+    }
+  }
+  /*主体*/
+  #pwdBody{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+    .inner{
+      width: 960px;
+      background: #fff;
+      padding:0px 30px;
+      padding-bottom: 60px;
+      .title{
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #333;
+        font-size: 24px;
+        font-weight: 600;
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+      }
+      .body{
+        width: 440px;
+        margin: 0px auto;
+        /*页面一*/
+        #resetByIdFromP1{
+          margin-top:30px;
+          width: 400px;
+          .tips{
+            line-height: 24px;
+            text-indent: 10px;
+            color: #999;
+            font-size: 12px;
+          }
+          .codeInner{
+            display: flex;
+            justify-content: space-between;
+            .codeInput{
+              flex: auto;
+            }
+            .vCode{
+              width:120px;
+              height:40px;
+              margin-left:10px;
+              cursor: pointer;
+            }
+          }
+        }
+        /*页面二*/
+        #resetByIdFromP2{
+          .forByPhoneSubTitle{
+            font-size: 16px;
+            color: #333;
+            margin-top: 10px;
+            padding: 8px 0;
+          }
+          .forByPhoneDes{
+            font-size: 14px;
+            color: #999;
+            line-height: 14px;
+          }
+          .tel{
+            height:40px;
+            line-height: 40px;
+            font-size: 14px;
+            color:#222;
+            .forCode{
+              cursor: pointer;
+              color: #007dff;
+            }
+          }
+          .pwdInfo {
+            padding-left: 16px;
+            margin-top: 10px;
+            .normal-tips{
+              padding: 0;
+              font-size: 13px;
+              line-height: 14px;
+              margin-bottom: 4px;
+              color: #000;
+              #pwdComplexFlag{
+                font-size: 14px;
+                color: #000;
+              }
+            }
+            .line8-EMUI5{
+              margin-bottom: 8px;
+              .gray-tips{
+                padding: 2px 0px;
+                font-size: 15px;
+                color: #999;
+                .pwd-complex{
+                  position: relative;
+                  height: 3px;
+                  border-radius: 1.5px;
+                  background: #EEE;
+                  #pwdStong{
+                    height: 3px;
+                  }
+                  .pwd-strong-div{
+                    width: 100%;
+                    background: #41ce48;
+                  }
+                }
+              }
+            }
+            .gray-tips-EMUI5{
+              padding: 2px 0;
+              font-size: 14px;
+              line-height: 14px;
+              color: rgba(0, 0, 0, 0.5);
+              .pwd-format{
+                width: 12px;
+                height: 12px;
+                border: none;
+                margin-right: 8px;
+                float: left;
+                margin-top: 1px;
+              }
+            }
+            #pwd-tips{
+              color: #666;
+              padding: 0;
+              font-size: 13px;
+              line-height: 14px;
+            }
+          }
+          #inputArea{
+            position: relative;
+            border-radius: 22px;
+            margin-top: 60px;
+            .submit{
+              .el-button{
+                border-radius: 22px;
+                width: 120px;
+              }
+            }
+          }
+          #forgetMsg{
+            font-size: 14px;
+            color: #ff3320;
+          }
+        }
+      }
+    }
+  }
+  /*页脚*/
+  #customerFooter{
+    display: flex;
+    justify-content: center;
+    .inner{
+      width: 960px;
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+      .warrant-area{
+        padding-top: 2px;
+        line-height: 56px;
+        a.rule{
+          padding: 0 10px;
+        }
+        .foot_em{
+          font-weight: normal;
+          font-style: normal;
+          font-size: 16px;
+        }
+        .lItem{
+          margin:0px;
+          text-align: center;
+          line-height:20px;
+          height:20px;
+        }
+      }
+    }
+  }
+}

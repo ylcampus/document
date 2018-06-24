@@ -1,0 +1,49 @@
+#ResourceAddEdit{
+  background: #fff;
+  height: 100%;
+  padding: 0px 20px;
+  .addResource{
+    font-size: 18px;
+    line-height: 50px;
+    color: #333;
+    height: 50px;
+    span{
+      border-left: 2px solid #e41f2b;
+      padding: 0px 5px;
+    }
+  }
+  .form{
+    width:640px;
+    padding:20px 0px;
+    .authList{
+      border: 1px solid #ddd;
+      padding: 10px 0px;
+      line-height: initial;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      .item{
+        padding:0px 15px;
+        .content{
+          line-height: 22px;
+          .el-checkbox-group{
+            &>label{
+              margin:0px 5px 5px 0px;
+              width:120px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .tips{
+    margin: 25px 0px;
+    max-width: 600px;
+    .item{
+      line-height: 24px;
+      color:#666;
+    }
+    .item.fir{
+      margin-bottom: 15px;
+    }
+  }
+}

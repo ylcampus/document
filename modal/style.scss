@@ -1,0 +1,39 @@
+/*向导*/
+#GuidModal{
+  /*协议书*/
+  .yle-submit{
+    margin-top:40px;
+    .el-button{
+      border-radius: 22px;
+      min-width: 120px;
+    }
+  }
+  /*绑定手机号*/
+  /*修改密码*/
+}
+
+.yle-law-book {
+  .book-content{
+    overflow: auto;
+  }
+  .book-title{
+    text-align: center;
+    margin: 0 0 30px;
+    font-size: 28px;
+    color: #333;
+  }
+  .text_list{
+    margin-bottom: 40px;
+    .law_st-2{
+      color: #666;
+      font-weight: 700;
+    }
+    ul.law_ml20{
+      margin-left: 20px;
+    }
+    li, p {
+      color: #666;
+    }
+  }
+}
+

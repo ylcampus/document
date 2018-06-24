@@ -1,0 +1,33 @@
+#Discount{
+  background: #fff;
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  .head{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    .filter{
+      display: flex;
+      .fitem{
+        margin-left: 5px;
+        width:220px;
+      }
+    }
+  }
+  /*打折券列表*/
+  .discountList{
+    flex: auto;
+  }
+  .pagination{
+    display: flex;
+    height: 50px;
+    align-items: center;
+  }
+  .gid{
+    color:#409eff;
+    cursor:pointer;
+  }
+}

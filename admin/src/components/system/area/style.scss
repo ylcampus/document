@@ -1,0 +1,47 @@
+#Area{
+  background: #fff;
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: flex-start;
+  .areaTree{
+    width:200px;
+    min-width: 180px;
+    padding-right:20px;
+    border-right:1px solid #ddd;
+    .filter{
+      margin: 20px 0px 10px 0px;
+    }
+  }
+  .memberList{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left:15px;
+    .head{
+      display: flex;
+      height: 60px;
+      align-items: center;
+      justify-content: space-between;
+      .filter{
+        display: flex;
+        .fitem{
+          margin-left: 5px;
+        }
+      }
+    }
+    /*角色列表*/
+    .memberList{
+      flex: auto;
+    }
+    .pagination{
+      display: flex;
+      height: 50px;
+      align-items: center;
+    }
+    .raccount{
+      color:#409eff;
+      cursor:pointer;
+    }
+  }
+}

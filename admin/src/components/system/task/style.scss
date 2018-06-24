@@ -1,0 +1,33 @@
+#Task{
+  background: #fff;
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  .head{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    .filter{
+      display: flex;
+      .fitem{
+        margin-left: 5px;
+      }
+    }
+  }
+  /*定时任务列表*/
+  .taskList{
+    flex: auto;
+  }
+  .pagination{
+    display: flex;
+    height: 50px;
+    align-items: center;
+  }
+  .tname{
+    color:#409eff;
+    cursor:pointer;
+  }
+}
+

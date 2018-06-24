@@ -1,0 +1,115 @@
+#Frame{
+  height:100%;
+  &>.container{
+    height: 100%;
+  }
+  #header{
+    background-color: #282828;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .web-logo{
+      z-index: 10;
+      width: 240px;
+      height: 50px !important;
+      a{
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 80px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        background-image: url(../../assets/img/logo.png);
+        background-repeat: no-repeat;
+        background-position-y: -5px;
+      }
+    }
+    .navr{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .mitem{
+        color: #999;
+        cursor: pointer;
+        margin:0px 24px;
+      }
+      .mitem:hover{
+        color: #ddd;
+      }
+      .mitem.bell{
+        padding:0px 24px;
+        margin:0px;
+        height:50px;
+        line-height: 50px;
+      }
+      .mitem.bell:hover{
+        background: #181818;
+      }
+      .loginLogo{
+        color:#ddd;
+        font-size:22px;
+      }
+      .el-icon-bell{
+        font-size: 16px;
+        color: #e41f2b;
+        font-weight: bold;
+      }
+      .v-line{
+        margin: 0 10px;
+        width: 1px;
+        height: 11px;
+        background: #666;
+      }
+    }
+  }
+  #body{
+    height: calc(100% - 85px);
+    display:flex;
+    #sidebar{
+      box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+      background-color: #e8e8e8;
+      .elSidebar:not(.el-menu--collapse) {
+        width: 200px;
+      }
+      /*需要好好设计下*/
+      .el-menu{
+        border:none;
+        background: none;
+        .el-menu-item.is-active{
+          border-left: 2px solid #3399FF;
+          background: #fff;
+          color: #3399FF;
+        }
+        .el-submenu{
+          .el-menu-item{
+            background: #e0e0e0;
+          }
+          .el-menu-item:hover{
+            background: #fff;
+            color: #3399FF;
+          }
+        }
+      }
+    }
+  }
+  #mainWarp{
+    overflow: auto;
+    padding: 0px 15px;
+    flex: auto;
+    #breadcrumb{
+      display: flex;
+      height: 50px;
+      align-items: center;
+    }
+    #mainCotent{
+      height: calc(100% - 50px);
+    }
+  }
+  #footer{
+    background-color: #282828;
+    height:35px;
+  }
+}
